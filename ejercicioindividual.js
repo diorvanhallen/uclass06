@@ -22,6 +22,7 @@ aprobadas = ([90,90,50,45,100,80])
 
 /* ejercicio 3 */
 
+/*
 var nacionalidades = ["mexicano","argentino","argentino","venezolano","peruano","mexicano","argentino","peruano","venezolano"];
 
 function clasificarnacionalidades(nacionalidades) {
@@ -34,37 +35,60 @@ function clasificarnacionalidades(nacionalidades) {
 
     nacionalidades.forEach( (nacionalidad) => {
         if (nacionalidad == "mexicano") {
-            contadormexicanos = mexicanos+1;
+            mexicanos = mexicanos+1;
         }
         if (nacionalidad == "argentino") {
-            contadorargentinos= argentinos+1;
+            argentinos= argentinos+1;
         }       
         if (nacionalidad == "venezolano") {
-            contadorvenezolanos = venezolanos+1;
+            venezolanos = venezolanos+1;
         }
         if (nacionalidad == "peruano") {
-            contadorperuanos = peruanos+1;
+            peruanos = peruanos+1;
         }
 
     })
 
     
-    console.log('mexicanos:' + contadormexicanos);
-    console.log('venezolanos:' + contadorvenezolanos);
-    console.log('argentinos:' + contadorargentinos);
-    console.log('peruanos:' + contadorperuanos);
+    console.log('mexicanos:' + mexicanos);
+    console.log('venezolanos:' + venezolanos);
+    console.log('argentinos:' + argentinos);
+    console.log('peruanos:' + peruanos);
 }
 clasificarnacionalidades(nacionalidades);
-
 /*
-var totaldepersonas = personas.reduce ((acumulador, personas) =>{
-    return acumulador + personas
 
-})
-    
-    console.log(totaldepersonas);
+/* INTENTO MIO
 
+var nacionalidades = ["mexicano","argentino","argentino","venezolano","peruano","mexicano","argentino","peruano","venezolano"];
+    var contador=0
 
-obtenerPromedio([2,5,8,9,10,10,20,1])*/
+    var cantidaddemexicanos = nacionalidades.reduce((contador,mexicano) => {
+        if(mexicano === "mexicano")
+        return contador+1;
+        
+    })
+    console.log(cantidaddemexicanos);
+/*
+    var mexicanos =0;
+    var argentinos =0;
+    var venezolanos =0;
+    var peruanos =0;
 
+function contarrepetidos(nacionalidades){
+    var cantidades= {}
 
+    arreglo.foreach(function(x){[x]=(cantidades[x] || 0=+1;)});
+    console.log(cantidades);
+       
+    nacionalidades = (["mexicano","argentino","argentino","venezolano","peruano","mexicano","argentino","peruano","venezolano"]);
+*/
+let pedidos = (['ensalada de pepinos','sajta',"platano",'ensalada de tomates','silpancho',"helado",'ensalada simple','sajta',"yogurt",'ensalada simple','anticucho',"yogurt",'ensalada de tomates','sajta']);
+    var contador=0;
+let cantidadSajta = pedidos.reduce( (pedido) => {
+    if(pedido === 'sajta')
+      return contador+1;
+    else
+      return contador;
+  },0)
+  console.log(cantidadSajta); //salida: 3
