@@ -83,12 +83,21 @@ function contarrepetidos(nacionalidades){
        
     nacionalidades = (["mexicano","argentino","argentino","venezolano","peruano","mexicano","argentino","peruano","venezolano"]);
 */
-let pedidos = (['ensalada de pepinos','sajta',"platano",'ensalada de tomates','silpancho',"helado",'ensalada simple','sajta',"yogurt",'ensalada simple','anticucho',"yogurt",'ensalada de tomates','sajta']);
-    var contador=0;
-let cantidadSajta = pedidos.reduce( (pedido) => {
-    if(pedido === 'sajta')
-      return contador+1;
-    else
-      return contador;
-  },0)
-  console.log(cantidadSajta); //salida: 3
+
+// ejercicio de tarea //
+let numero = [2,3,4,5,6,7,8,9,10];
+
+    let pares = numero.filter(function(num){
+      return num % 2 !== 0;
+    });
+    //nuevo array con los numeros pares
+    console.log(pares);
+
+// ejercicio de tarea 2 //
+
+function ()
+
+
+
+
+tabla = ([5]);
