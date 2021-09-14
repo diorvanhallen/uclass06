@@ -95,7 +95,13 @@ let numero = [2,3,4,5,6,7,8,9,10];
 
 // ejercicio de tarea 2 //
 
-function ()
+function tablademultiplicar((tabla) {
+    for (let i = 0; index < array.length; index++) {
+        const element = array[index];
+        
+    }
+    
+}
 
 
 
