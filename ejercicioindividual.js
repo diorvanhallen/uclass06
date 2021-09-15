@@ -94,7 +94,7 @@ let numero = [2,3,4,5,6,7,8,9,10];
     });
     //nuevo array con los numeros pares
     console.log(pares);
-*/
+
 // ejercicio de tarea 2 //
 
 var tabla=5;
@@ -108,3 +108,10 @@ for (var i = 1; i< 11; i++) {
 console.log(tabla + 'x' + i + '=' + (tabla * i))
 
 }
+
+
+*/ otro ejercicio */
+var ordenar=([1, 2, 45, 5, 6, 3, 1, 8])
+var ordenar=([100, 5, 5, 8, 3, 7, 8])
+
+ordenar.sort();
