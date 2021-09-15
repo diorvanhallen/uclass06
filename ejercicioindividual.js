@@ -84,7 +84,9 @@ function contarrepetidos(nacionalidades){
     nacionalidades = (["mexicano","argentino","argentino","venezolano","peruano","mexicano","argentino","peruano","venezolano"]);
 */
 
-// ejercicio de tarea //
+// ejercicio de tarea 
+/*
+
 let numero = [2,3,4,5,6,7,8,9,10];
 
     let pares = numero.filter(function(num){
@@ -92,18 +94,17 @@ let numero = [2,3,4,5,6,7,8,9,10];
     });
     //nuevo array con los numeros pares
     console.log(pares);
-
+*/
 // ejercicio de tarea 2 //
 
-function tablademultiplicar((tabla) {
-    for (let i = 0; index < array.length; index++) {
-        const element = array[index];
-        
-    }
-    
+var tabla=5;
+for (var i = 1; i< 11; i++) {
+console.log(tabla + 'x' + i + '=' + (tabla * i))
+
 }
 
+var tabla=9;
+for (var i = 1; i< 11; i++) {
+console.log(tabla + 'x' + i + '=' + (tabla * i))
 
-
-
-tabla = ([5]);
+}
